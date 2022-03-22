@@ -15,7 +15,7 @@ ReactDOM.render(
       <Router>
         <App />
       </Router>
-    </ReduxProvider>,
+    </ReduxProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

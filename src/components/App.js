@@ -1,11 +1,15 @@
 import React, { Suspense, lazy } from "react";
-import { Route, Switch } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const HomePage = lazy(() => import('./home/HomePage'));
+const HomePage = React.lazy(() => import('./home/HomePage'));
 
 
 function App() {
@@ -13,10 +17,10 @@ function App() {
     <div className="container-fluid">
       <Header />
       <Suspense fallback={<div>Loading...</div>}>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route component={PageNotFound} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<HomePage/>} />
+          <Route element={<PageNotFound/>} />
+        </Routes>
       </Suspense>
       
       <ToastContainer autoClose={3000} hideProgressBar />

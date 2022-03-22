@@ -6,28 +6,15 @@ const Header = () => {
   return (
     <>
         <nav>
-          <NavLink to="/" activeStyle={activeStyle} exact>
+          <NavLink to="/" activestyle={activeStyle} exact="true">
             Home
           </NavLink>
           {" | "}
-          <NavLink to="/courses" activeStyle={activeStyle}>
+          <NavLink to="/courses" activestyle={activeStyle}>
             Courses
           </NavLink>
           {" | "}
-          <NavLink to="/about" activeStyle={activeStyle}>
-            About
-          </NavLink>
-        </nav>
-        <nav>
-          <NavLink to="/" activeStyle={activeStyle} exact>
-            Home
-          </NavLink>
-          {" | "}
-          <NavLink to="/courses" activeStyle={activeStyle}>
-            Courses
-          </NavLink>
-          {" | "}
-          <NavLink to="/about" activeStyle={activeStyle}>
+          <NavLink to="/about" activestyle={activeStyle}>
             About
           </NavLink>
         </nav>
