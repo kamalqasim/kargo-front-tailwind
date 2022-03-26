@@ -14,7 +14,7 @@ const HomePage = React.lazy(() => import('./home/HomePage'));
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="md:container md:mx-auto">
       <Header />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
