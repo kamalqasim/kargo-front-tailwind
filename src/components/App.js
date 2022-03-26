@@ -14,17 +14,23 @@ const HomePage = React.lazy(() => import('./home/HomePage'));
 
 function App() {
   return (
-    <div className="md:container md:mx-auto">
-      <Header />
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route exact path="/" element={<HomePage/>} />
-          <Route element={<PageNotFound/>} />
-        </Routes>
-      </Suspense>
+    <div className=" md:mx-auto">
+      <div className="bg-sky-400 md:mx-auto">
+        <Header />
+      </div>
+      <div className="md:container">
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route exact path="/" element={<HomePage/>} />
+            <Route element={<PageNotFound/>} />
+          </Routes>
+        </Suspense>
+      </div>
+      
       
       <ToastContainer autoClose={3000} hideProgressBar />
     </div>
+   
   );
 }
 
