@@ -15,26 +15,26 @@ const Navbar = () => {
           </div>
           
           <nav className="flex items-center text-gray-900">
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/" activeStyle={activeStyle} exact className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Haqqında
             </NavLink>
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/"   className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Xidmətlər
             </NavLink>
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/"   className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Tariflər
             </NavLink>
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/"   className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Mağazalar
             </NavLink>
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/"   className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Xəbərlər
             </NavLink>
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-2  ">
+            <NavLink to="/"  className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               FAQ
             </NavLink>
             
-            <NavLink to="/" activeStyle={activeStyle} exact className="ml-2  ">
+            <NavLink to="/" className=" hover:bg-maincolor hover:text-white p-2 rounded ">
               Əlaqə
             </NavLink>
           </nav>

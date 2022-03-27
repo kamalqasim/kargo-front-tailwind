@@ -19,7 +19,7 @@ module.exports = {
       'maincolor': '#1d9bf0'
     },
     backgroundImage: {
-      'home-pattern': "url('/public/assets/img/mainpage.jpg')",
+      'home-pattern': "url('/public/assets/img/homepage.png')",
     }
   },
   plugins: [],
