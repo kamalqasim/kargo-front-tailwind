@@ -7,6 +7,11 @@ import configureStore from "./redux/configureStore";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./components/App";
 
+import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
+ 
+
 const store = configureStore();
 
 ReactDOM.render(
