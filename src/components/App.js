@@ -20,8 +20,7 @@ function App() {
       </div>
       <div className=" md:mx-auto">
         <Navbar />
-      </div>
-      <div className="md:container">
+
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route exact path="/" element={<HomePage/>} />
@@ -29,7 +28,7 @@ function App() {
           </Routes>
         </Suspense>
       </div>
-      
+     
       
       <ToastContainer autoClose={3000} hideProgressBar />
     </div>

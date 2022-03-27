@@ -1,5 +1,6 @@
 const colors = require('tailwindcss/colors');
 
+
 module.exports = {
   darkMode: 'class',
   content: [
@@ -17,6 +18,9 @@ module.exports = {
       ...colors,
       'maincolor': '#1d9bf0'
     },
+    backgroundImage: {
+      'home-pattern': "url('/public/assets/img/mainpage.jpg')",
+    }
   },
   plugins: [],
 }
