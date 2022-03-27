@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
-
+import Navbar from './common/Navbar';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const HomePage = React.lazy(() => import('./home/HomePage'));
@@ -15,8 +15,11 @@ const HomePage = React.lazy(() => import('./home/HomePage'));
 function App() {
   return (
     <div className=" md:mx-auto">
-      <div className="bg-sky-400 md:mx-auto">
+      <div className="bg-[#1d9bf0] md:mx-auto">
         <Header />
+      </div>
+      <div className=" md:mx-auto">
+        <Navbar />
       </div>
       <div className="md:container">
         <Suspense fallback={<div>Loading...</div>}>
