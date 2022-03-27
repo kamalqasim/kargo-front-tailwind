@@ -16,7 +16,8 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       ...colors,
-      'maincolor': '#1d9bf0'
+      'maincolor': '#1d9bf0',
+      'inputactive': '#6366f1'
     },
     backgroundImage: {
       'home-pattern': "url('/public/assets/img/homepage.png')",

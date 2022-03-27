@@ -15,7 +15,7 @@ const Navbar = () => {
           </div>
           
           <nav className="flex items-center text-gray-900">
-            <NavLink to="/" activeStyle={activeStyle} exact className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
+            <NavLink to="/"  className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
               Haqqında
             </NavLink>
             <NavLink to="/"   className="mr-4 hover:bg-maincolor hover:text-white p-2 rounded ">
