@@ -20,7 +20,7 @@ module.exports = {
       'inputactive': '#6366f1'
     },
     backgroundImage: {
-      'home-pattern': "url('/public/assets/img/homepage.png')",
+      'home-pattern': "url('/public/assets/img/homepage.jpg')",
     }
   },
   plugins: [],
