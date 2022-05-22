@@ -21,7 +21,12 @@ module.exports = {
     },
     backgroundImage: {
       'home-pattern': "url('/public/assets/img/homepage.jpg')",
-    }
+      'fast-icon': "url('/public/assets/icon/fast.svg')",
+      'fast-icon-white': "url('/public/assets/icon/white-fast.svg')",
+      'save-money-icon': "url('/public/assets/icon/save-money.svg')",
+      'sertificate-icon': "url('/public/assets/icon/sertificate.svg')",
+      'innovation-icon': "url('/public/assets/icon/innovation.svg')",
+    },
   },
   plugins: [],
 }

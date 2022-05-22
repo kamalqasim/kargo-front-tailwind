@@ -118,30 +118,56 @@ class HomePage extends React.Component {
         <div className="md:container mt-10 text-center">
           <p className="font-bold text-2xl text-maincolor">Əsas Üstünlüklərimiz</p>
           <div className=" w-full mt-5 flex">
-              <div className="w-4/12  break-words rounded pr-2">
-                <p className="shadow-2xl h-60 p-2">
-                  Sürətli və təhlükəsiz çatdırılma
-                  Bağlamanız bizim xaricdəki əməkdaşlarımız tərəfindən təhvil alındıqdan sonra göndəriş gününə qədər çeşidlənir, anbarlaşdırılır və qısa müddət ərzində Bakı ofisimizə çatdırılır. Bu müddət ərzində bütün proseslər barədə email, tətbiq və sms vasitəsilə sizə məlumat göndərilir.
-                </p>
+              <div className="w-6/12  break-words rounded pr-2">
+                
+
+                <div class="flex font-sans bg-white hover:bg-maincolor hover:text-white rounded shadow-2xl">
+                  <div class="flex-none w-56 bg-fast-icon bg-no-repeat bg-white relative rounded bg-[length:200px_100px]  bg-center">
+                  </div>
+                  <p className=" h-48 p-3 text-left break-word ">
+                    {/* Sürətli və təhlükəsiz çatdırılma */}
+                    Bağlamanız bizim xaricdəki əməkdaşlarımız tərəfindən təhvil alındıqdan sonra göndəriş gününə qədər çeşidlənir, anbarlaşdırılır və qısa müddət ərzində Bakı ofisimizə çatdırılır. Bu müddət ərzində bütün proseslər barədə email, tətbiq və sms vasitəsilə sizə məlumat göndərilir.
+                  </p>
+                </div>
                
               </div>
-              <div className="w-4/12 break-words  rounded pr-2">
-                <p className=" shadow-2xl h-60 p-2">
-                  Sürətli və təhlükəsiz çatdırılma
-                  Bəyəndiyiniz məhsulları Türkiyə, Amerika və Çindən sərfəli qiymətlərlə ölkəmizə gətiririk.
-                </p>
+              <div className="w-6/12 break-words  rounded pr-2">
+
+                <div class="flex font-sans bg-white hover:bg-maincolor hover:text-white rounded shadow-2xl">
+                  <div class="flex-none w-56 bg-save-money-icon bg-no-repeat bg-white relative rounded bg-[length:200px_100px]  bg-center">
+                  </div>
+                  <p className="  h-48 p-3 text-left break-word">
+                    Pula qənaət
+                    Bəyəndiyiniz məhsulları Türkiyə, Amerika və Çindən sərfəli qiymətlərlə ölkəmizə gətiririk.
+                  </p>
+                </div>
+
+
               </div>
-              <div className="w-4/12 break-words  rounded pr-2">
-               <p className="shadow-2xl h-60 p-2">
-                Sürətli və təhlükəsiz çatdırılma
-                Bağlamanız bizim xaricdəki əməkdaşlarımız tərəfindən təhvil alındıqdan sonra göndəriş gününə qədər çeşidlənir, anbarlaşdırılır və qısa müddət ərzində Bakı ofisimizə çatdırılır. Bu müddət ərzində bütün proseslər barədə email, tətbiq və sms vasitəsilə sizə məlumat göndərilir.
-               </p>
+             
+          </div>
+          <div className="w-full mt-5 flex">
+              <div className="w-6/12 break-words  rounded pr-2">
+
+
+                  <div class="flex font-sans bg-white hover:bg-maincolor hover:text-white  rounded ">
+                    <div class="flex-none w-56 bg-sertificate-icon bg-no-repeat bg-white relative rounded bg-[length:200px_100px]  bg-center">
+                    </div>
+                    <p className="shadow-2xl h-48 p-3 text-left break-word">
+                      {/* Sübut olunmuş təcrübə */}
+                      Beynəlxalq daşımalar sahəsində 2010-cu ildən etibarən fəaliyyət göstəririk. Bu istiqamətdə əldə etdiyimiz təcrübəni 2018-ci ildən etibarən kuryer xidmətinin də təşkilində həyata keçirməyə başlamışıq. İndiyədək Türkiyə, Amerika və Çindən yüz minlərlə bağlamanı müştərilərimizə çatdırmışıq.                    </p>
+                  </div>
+
               </div>
-              <div className="w-4/12  break-words  rounded pl-2">
-                <p className="shadow-2xl h-60 p-2">
-                Sürətli və təhlükəsiz çatdırılma
-                Bağlamanız bizim xaricdəki əməkdaşlarımız tərəfindən təhvil alındıqdan sonra göndəriş gününə qədər çeşidlənir, anbarlaşdırılır və qısa müddət ərzində Bakı ofisimizə çatdırılır. Bu müddət ərzində bütün proseslər barədə email, tətbiq və sms vasitəsilə sizə məlumat göndərilir.
-                </p>
+              <div className="w-6/12  break-words  rounded pl-2  ">
+
+                <div class="flex font-sans bg-white hover:bg-maincolor hover:text-white rounded ">
+                  <div class="flex-none w-56 bg-innovation-icon bg-no-repeat bg-white relative rounded bg-[length:200px_100px]  bg-center">
+                  </div>
+                  <p className="shadow-2xl h-48 p-3 text-left break-word">
+                    {/* İnnovativlik */}
+                    İstər yeni texnologiyaların tətbiqi, istərsə də işçi heyətinə mütəmadi treninqlərin verilməsi istiqamətində şirkətimiz davamlı yatırım edir.                  </p>
+                </div>
               </div>
           </div>
         </div>
