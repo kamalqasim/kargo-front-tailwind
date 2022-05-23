@@ -173,6 +173,104 @@ class HomePage extends React.Component {
         </div>
 
         <div className="md:container mt-10 text-center">
+          <p className="font-bold text-2xl text-maincolor"> Xidmətlərimiz</p>
+          <div className=" w-full mt-5 flex">
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                   
+                    <div class="flex flex-col items-center pb-10 mt-4">
+                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" 
+                          src={'/assets/services/flag-turkey.svg'} alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                          Türkiyədən çatdırılma
+                        </h5>
+                        
+                    </div>
+                </div>
+                
+              </div>
+              
+              
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                   
+                    <div class="flex flex-col items-center pb-10 mt-4">
+                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" 
+                          src={'/assets/services/flag-usa.svg'} alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                          Amerikadan çatdırılma
+                        </h5>
+                        
+                    </div>
+                </div>
+                
+              </div>
+
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                   
+                    <div class="flex flex-col items-center pb-10 mt-4">
+                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" 
+                          src={'/assets/services/flag-china.svg'} alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                          Çindən çatdırılma
+                        </h5>
+                        
+                    </div>
+                </div>
+                
+              </div>
+
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                   
+                    <div class="flex flex-col items-center pb-10 mt-4">
+                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" 
+                          src={'/assets/services/flag-turkey.svg'} alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                          Həvalə Et (Türkiyədən)
+                        </h5>
+                        
+                    </div>
+                </div>
+                
+              </div>
+
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                   
+                    <div class="flex flex-col items-center pb-10 mt-4">
+                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" 
+                          src={'/assets/services/refund.svg'} alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                          Geri qaytarma
+                        </h5>
+                        
+                    </div>
+                </div>
+                
+              </div>
+
+             
+
+              
+
+             
+
+              
+
+              
+             
+          </div>
+          
+        </div>
+
+        <div className="md:container mt-10 text-center">
           <p className="font-bold text-2xl text-maincolor"> Ən son yeniliklər</p>
           <div className=" w-full mt-5 flex">
               <div className="w-3/12  break-words rounded pr-2">
@@ -183,7 +281,9 @@ class HomePage extends React.Component {
                   </a>
                   <div class="p-5">
                       <a href="#">
-                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Türkiyə saytlarında böyük endirim var
+                          </h5>
                       </a>                   
                   </div>
                 </div>
@@ -197,7 +297,9 @@ class HomePage extends React.Component {
                   </a>
                   <div class="p-5">
                       <a href="#">
-                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                              Bağlamam qutuda qalsın!
+                          </h5>
                       </a>                   
                   </div>
                 </div>
@@ -211,7 +313,9 @@ class HomePage extends React.Component {
                   </a>
                   <div class="p-5">
                       <a href="#">
-                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            GOEx ilə çatdırılma et, 5% keşbek əldə et!
+                          </h5>
                       </a>                   
                   </div>
                 </div>
@@ -225,7 +329,9 @@ class HomePage extends React.Component {
                   </a>
                   <div class="p-5">
                       <a href="#">
-                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Həcm çəkisi ilə yox fiziki çəki ilə çatdırılma!
+                          </h5>
                       </a>                   
                   </div>
                 </div>
