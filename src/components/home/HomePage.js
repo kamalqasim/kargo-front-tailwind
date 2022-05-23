@@ -64,7 +64,7 @@ class HomePage extends React.Component {
         <div className="md:container -mt-5 bg-white pt-5 rounded">
           <div className="pt-5 shadow-md">
            <div className="w-full text-left ml-4" >
-            <p className="text-blue-400 text-2xl font-bold ">Kalkulator</p>
+            <p className="text-blue-400 text-2xl font-bold ">Hesabla</p>
            </div>
             <form className="columns-4 pb-5 px-4">
               <div className="w-full mb-5">
@@ -170,6 +170,71 @@ class HomePage extends React.Component {
                 </div>
               </div>
           </div>
+        </div>
+
+        <div className="md:container mt-10 text-center">
+          <p className="font-bold text-2xl text-maincolor"> Ən son yeniliklər</p>
+          <div className=" w-full mt-5 flex">
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <a href="#">
+                      <img class="object-cover h-48 w-full rounded-t-lg" src={'/assets/news/xeber1.jpg'} alt="" />
+                  </a>
+                  <div class="p-5">
+                      <a href="#">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                      </a>                   
+                  </div>
+                </div>
+                
+              </div>
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <a href="#">
+                      <img class="object-cover h-48 w-full rounded-t-lg" src={'/assets/news/xeber2.png'} alt="" />
+                  </a>
+                  <div class="p-5">
+                      <a href="#">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                      </a>                   
+                  </div>
+                </div>
+                
+              </div>
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <a href="#">
+                      <img class="object-cover h-48 w-full rounded-t-lg" src={'/assets/news/xeber3.png'} alt="" />
+                  </a>
+                  <div class="p-5">
+                      <a href="#">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                      </a>                   
+                  </div>
+                </div>
+                
+              </div>
+              <div className="w-3/12  break-words rounded pr-2">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <a href="#">
+                      <img class="object-cover h-48 w-full rounded-t-lg" src={'/assets/news/xeber4.png'} alt="" />
+                  </a>
+                  <div class="p-5">
+                      <a href="#">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                      </a>                   
+                  </div>
+                </div>
+                
+              </div>
+              
+             
+          </div>
+          
         </div>
        
        
